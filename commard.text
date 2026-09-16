@@ -1,0 +1,9 @@
+docker -v // เช็ค version
+docker ps
+docker --all // เช็ค
+docker run busybox ls
+docker run busybox ping google.com
+docker stop ตามด้วย id // หยุด
+docker rm ตามด้วย id // ลบ
+docker run -p 80:80 nginx //match พอด
+
