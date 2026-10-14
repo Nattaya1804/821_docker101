@@ -22,10 +22,9 @@ kind: Service
 metadata:
   name: service-service
 spec:
-  type: NodePort
+  type: ClusterIP
   selector:
     app: service
   ports: 
     - port: 80
       targetPort: 80
-      nodePort: 30002
